@@ -8,7 +8,7 @@ namespace Icard.SwiftParse
     {
 
         string BlockId { get; }
-        char ApplicationID { get; set; }
+        string ApplicationID { get; set; }
         string ServiceId { get; set; }
         string LogicalAddres { get; set; }
         string SessionNumber { get; set; }
