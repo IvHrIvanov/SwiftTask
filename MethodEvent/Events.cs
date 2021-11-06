@@ -25,6 +25,7 @@ namespace Icard.EventMethods
             sb = new StringBuilder();
             sb.AppendLine($"==File {e.ChangeType}==");
             sb.AppendLine($"{e.ChangeType} -> {e.Name}");
+           
             string result = reader.FileReader(e.Name);
             sb.AppendLine(result);
             Console.WriteLine(sb.ToString());

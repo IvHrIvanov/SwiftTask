@@ -20,7 +20,6 @@ namespace Icard
             watcher.Filter = "*.txt";
             watcher.EnableRaisingEvents = true;
          
-            watcher.Changed += methods.OnActionOnFolderPath;
             watcher.Created += methods.OnActionOnFolderPath;
             watcher.Renamed += methods.OnFileRename;
 
